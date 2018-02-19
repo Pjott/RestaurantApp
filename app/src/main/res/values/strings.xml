@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">RestaurantApp</string>
+    <string name="restaurant_logo">Restaurant logo</string>
+    <string-array name="main_options">
+        <item>Menu</item>
+        <item>Contact</item>
+    </string-array>
 </resources>
