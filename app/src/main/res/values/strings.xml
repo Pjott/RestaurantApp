@@ -6,4 +6,9 @@
         <item>Stores</item>
         <item>Contact</item>
     </string-array>
+    <string-array name="menu_options">
+        <item>Lunch</item>
+        <item>Desserts</item>
+        <item>Drinks</item>
+    </string-array>
 </resources>
