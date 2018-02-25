@@ -18,7 +18,10 @@ public class Menu extends Activity {
                 new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> listView, View itemView, int position, long id) {
-                        if (position == 2) {
+                        if (position == 0) {
+                            Intent menuIntent = new Intent(Menu.this, LunchCategoryActivity.class);
+                            startActivity(menuIntent);
+                        } else if (position == 2) {
                             Intent menuIntent = new Intent(Menu.this, DrinkCategoryActivity.class);
                             startActivity(menuIntent);
                         }
