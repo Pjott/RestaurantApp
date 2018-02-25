@@ -21,6 +21,9 @@ public class Menu extends Activity {
                         if (position == 0) {
                             Intent menuIntent = new Intent(Menu.this, LunchCategoryActivity.class);
                             startActivity(menuIntent);
+                        } else if(position ==1) {
+                            Intent menuIntent = new Intent(Menu.this, DessertCategoryActivity.class);
+                            startActivity(menuIntent);
                         } else if (position == 2) {
                             Intent menuIntent = new Intent(Menu.this, DrinkCategoryActivity.class);
                             startActivity(menuIntent);
